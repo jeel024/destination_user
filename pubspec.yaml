@@ -1,0 +1,72 @@
+name: destination_user
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.5
+  google_fonts: ^6.1.0
+  flutter_rating_bar: ^4.0.1
+  carousel_slider: ^4.1.1
+  flutter_staggered_grid_view: ^0.6.2
+  flutter_staggered_animations: ^1.1.1
+  http: ^1.0.0
+  connectivity_plus: ^2.3.7
+  cached_network_image:
+  html: ^0.15.0
+  package_info_plus:
+  flutter_html:
+  firebase_core:
+  firebase_auth:
+  cloud_firestore:
+  firebase_storage:
+  firebase_crashlytics:
+  google_sign_in: ^5.4.2
+  the_apple_sign_in: ^1.1.1
+  flutter_vector_icons: ^2.0.0
+  url_launcher: ^6.1.5
+  shared_preferences: ^2.0.15
+  fluttertoast: ^8.0.9
+  maps_launcher: ^2.0.1
+  geolocator:
+  google_maps_flutter: ^2.2.0
+  google_maps_place_picker_mb:
+  image_picker: ^0.8.5+3
+  lottie: ^1.4.3
+  onesignal_flutter: ^3.4.1
+  mobx: ^2.1.0
+  flutter_mobx: ^2.0.6+4
+  razorpay_flutter:
+  pdf:
+  path_provider:
+  open_file:
+  intl:
+
+
+  #Localization
+  flutter_localizations:
+    sdk: flutter
+dependency_overrides:
+  intl: ^0.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^2.2.1
+  mobx_codegen: ^2.0.7+3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/flag/
+    - assets/icon/
